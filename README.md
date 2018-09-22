@@ -6,6 +6,10 @@ Data scraped from MDN.
 
 ## Usage
 
+```shell
+npm install --save-dev dom-event-types
+```
+
 ```js
 const eventInterfaces = require("dom-event-interfaces");
 
