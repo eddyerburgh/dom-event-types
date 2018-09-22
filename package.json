@@ -1,0 +1,30 @@
+{
+  "name": "dom-event-types",
+  "version": "1.0.0",
+  "description": "List of DOM events and their type",
+  "main": "index.js",
+  "repository": "https://github.com/eddyerburgh/dom-event-types",
+  "author": "eddyerburgh <edward.yerburgh@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.14",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
