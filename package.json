@@ -1,7 +1,7 @@
 {
   "name": "dom-event-types",
   "version": "1.0.0",
-  "description": "List of DOM events and their type",
+  "description": "DOM events data scraped from MDN",
   "main": "index.js",
   "repository": "https://github.com/eddyerburgh/dom-event-types",
   "author": "Edd Yerburgh",
