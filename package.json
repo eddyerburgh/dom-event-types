@@ -6,8 +6,14 @@
   "repository": "https://github.com/eddyerburgh/dom-event-types",
   "author": "Edd Yerburgh",
   "license": "MIT",
+  "keywords": [
+    "DOM event data",
+    "DOM event interfaces",
+    "DOM events json"
+  ],
   "private": false,
   "scripts": {
+    "generate": "node scrape",
     "lint": "eslint '{,!(node_modules)/**/}*.js'",
     "test": "jest"
   },
