@@ -1,6 +1,6 @@
 {
   "name": "dom-event-types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "DOM events data scraped from MDN",
   "main": "index.js",
   "types": "dom-event-types.ts",
