@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "DOM events data scraped from MDN",
   "main": "index.js",
+  "types": "dom-event-types.ts",
   "repository": "https://github.com/eddyerburgh/dom-event-types",
   "author": "Edd Yerburgh",
   "license": "MIT",

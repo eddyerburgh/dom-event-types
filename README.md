@@ -23,8 +23,8 @@ console.log(eventInterfaces);
 {
   [eventType]: {
     eventInterface: string
-    cancelable?: Boolean
-    bubbles?: Boolean
+    cancelable: Boolean
+    bubbles: Boolean
   }
 }
 ```
